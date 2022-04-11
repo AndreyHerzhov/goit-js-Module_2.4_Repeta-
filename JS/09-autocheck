@@ -1,0 +1,39 @@
+// // ----- 9 ------- //
+
+// function getExtremeElements(array) {
+//     // Change code below this line
+//     let newArray = [];
+//     const lastIndex = array.length - 1;
+//     console.log(lastIndex)
+//     for (let i = 0; i < array.length; i += 1) {
+//         newArray.push(array[0],array[lastIndex]);
+//         return newArray;
+//     }
+  
+//     // Change code above this line
+//   }
+
+  
+
+ 
+//  console.log(getExtremeElements([1, 2, 3, 4, 5])); //возвращает [1, 5]
+//  console.log(getExtremeElements(["Earth", "Mars", "Venus"])); //возвращает ["Earth", "Venus"]
+//  console.log(getExtremeElements(["apple", "peach", "pear", "banana"]));// возвращает ["apple", "banana"]
+
+
+
+
+
+
+//  function calculateTotal (number){
+//     let total = 0;  
+
+//     for (let i = 0; i < number; i += 1){
+//        total += number[i];
+//     }
+//     return total;
+//  }
+
+//  calculateTotal(2)
+
+

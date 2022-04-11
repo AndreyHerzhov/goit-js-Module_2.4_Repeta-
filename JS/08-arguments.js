@@ -54,23 +54,27 @@
 // console.log(add(1,2,3,4,5,6,7,8,9,10));
 
 
-const filterNumber = function (array, ...args) {
-    // console.log(`array:`, array);
-    // console.log(`args:`, args);
+// const filterNumber = function (array, ...args) {
+//     // console.log(`array:`, array);
+//     // console.log(`args:`, args);
 
-    const  uniqueElement = [];
+//     const  uniqueElement = [];
 
-    for (const element of array){
-        // console.log(element);
+//     for (const element of array){
+//         // console.log(element);
 
-        if(args.includes(element)){
-            uniqueElement.push(element);
-            // return element;
-        }
-    }
-        return uniqueElement;
-}
+//         if(args.includes(element)){
+//             uniqueElement.push(element);
+//             // return element;
+//         }
+//     }
+//         return uniqueElement;
+// }
 
-console.log(filterNumber([1,2,3,4,5],10,15,2,3,8));
-console.log(filterNumber([10,15,25,30],23,30,18,15));
-console.log(filterNumber([100,200,300,400,500],7,12,200,64));
+// console.log(filterNumber([1,2,3,4,5],10,15,2,3,8));
+// console.log(filterNumber([10,15,25,30],23,30,18,15));
+// console.log(filterNumber([100,200,300,400,500],7,12,200,64));
+
+
+
+
